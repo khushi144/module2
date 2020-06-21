@@ -1,0 +1,106 @@
+@font-face{
+	font-family: IndieFlower;
+	src: url(../fonts/IndieFlower.ttf);
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: IndieFlower;
+}
+
+body{
+	padding: 10px;
+}
+
+h1{
+	margin-bottom: 15px;
+	text-align: center;	
+	font-size: 	175%;
+}
+h2{
+	font-size: 	125%;
+}
+
+.container{
+
+}
+
+.container-main{
+	background-color: lightgrey;
+}
+
+.container-category{
+	margin: -1px;
+	padding: 3px 20px 3px 20px;
+	background-color:
+}
+
+#bg-1{
+	background-color: orange;
+}
+
+#bg-2{
+	background-color: lightblue;
+}
+
+#bg-3{
+	background-color: lightgreen;
+}
+
+.container-context{
+	padding: 10px;
+}
+
+.border{
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+.float-left{
+	float: 	left;
+}
+
+.float-right{
+	float: right;
+}
+
+.clear-both	{
+	clear: both;
+}
+
+.col {
+	width: 100%;
+	padding: 10px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.col-sm-12{
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 50%;
+		float: left;
+		padding: 10px;
+	}
+	.col-md-12 {
+		clear: both;
+		width: 100%;
+		padding: 10px;
+	}
+
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		width: 33.3%;
+		float: left;
+		padding: 10px;
+	}
+}
